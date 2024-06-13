@@ -1,0 +1,13 @@
+.retnagpl0{
+    background: gainsboro;
+    display:inline-block;
+    width: 230px;
+    height: 100px;
+    padding: 20;
+    border: 6px solid black;
+    border-right: 24px solid black;
+    border-left: 24px  solid black;
+    margin- :right 20px;
+    margin-bottom:20px
+}
+

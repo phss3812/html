@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.MENU a {
+    text-decoration: none;
+    color: blue ;
+    font-size: 25px;
+
+}
+.header{
+    display: flex;
+    align-items: center; justify-content: space-between;
+    padding: 0 45px ;
+}
+.MENU a:hover{
+   color: rgb(85, 85, 246); 
+   text-decoration: underline;
+   
+}
+body{
+    
+}
+.MENU{
+    display: flex;
+    gap: 30px;
+}
+.titulo{
+    color: blue;
+    text-align: center;
+}
+.tenis img{
+    width:300px;
+    margin: 5px;
+    border: solid blue;
+}
+.bem {
+    text-align: center;
+    font-size: 45px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 40px 0;
+    width: 650px;
+    display: flex;
+    overflow: hidden;
+    overflow-x:scroll 
+}
+.card{
+    width:300px ;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.axtim{
+    height:250px ;
+    width:250px ;
+    border-radius:15px;
+    margin-top: 20px; 
+    
+}
+.cmpr{
+    background-color: blue;
+    color: white;
+    border-radius: 2px;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+}
+.axt{
+    font-size: 25px;
+    padding: 15px;
+}
+.axt-des{
+    font-size: 10px;
+    padding: 15px;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+    
+}
+.cmst{ background-color: white;}
+.nk img{
+    width: 30px ;
+}
+.pai{
+    display: flex;
+    padding: 0 100px;
+    justify-content: center;
+    
+}
+.cntt img{
+    padding: 50px;
+    width: 50px;
+}
